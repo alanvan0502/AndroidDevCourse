@@ -1,0 +1,4 @@
+#Tue Nov 06 11:24:40 EST 2018
+base.0=/Users/alanvan/Documents/AndroidDev-Google/android-fundamentals-starter-apps-v2/MaterialMe-Starter/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
