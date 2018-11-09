@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circle_size">80dp</dimen>
+    <dimen name="blueline_width">20dp</dimen>
+    <dimen name="rectangle_height">30dp</dimen>
+    <dimen name="android_size">90dp</dimen>
+    <dimen name="square_size">80dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_top_bottom">30dp</dimen>
+    <dimen name="image_size">80dp</dimen>
+</resources>

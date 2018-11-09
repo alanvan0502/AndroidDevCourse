@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                app:srcCompat="@drawable/circle" android:id="@+id/circle"
+                android:layout_toStartOf="@id/anchor"
+                android:layout_above="@id/anchor"
+                android:layout_margin="@dimen/margin"/>
+
+        <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:id="@+id/rectangle"
+                android:background="@drawable/blue_line"
+                android:layout_toStartOf="@id/anchor"
+                android:layout_below="@id/anchor"
+                android:layout_margin="@dimen/margin"/>
+        <View
+                android:id="@+id/anchor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"/>
+
+        <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                app:srcCompat="@drawable/square" android:id="@+id/square"
+                android:layout_toEndOf="@id/anchor"
+                android:layout_below="@id/anchor"
+                android:layout_margin="@dimen/margin"/>
+
+        <ImageView
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                app:srcCompat="@drawable/ic_android_90dp"
+                android:id="@+id/android"
+                android:layout_toEndOf="@id/anchor"
+                android:layout_above="@id/anchor"
+                android:layout_margin="@dimen/margin"
+                android:onClick="sharedElement"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
